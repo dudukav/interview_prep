@@ -1,5 +1,7 @@
 # Конкурентность
 
+Собеседовательные нюансы: [состояния channels, ownership, select, leaks, Mutex, atomics и races](../interview-traps.md#5-goroutines-channels-и-shared-state).
+
 ## Concurrency и parallelism
 
 Concurrency — организация нескольких независимо продвигающихся задач. Parallelism — их физическое выполнение одновременно. Goroutines дают concurrency; runtime планирует их на OS threads и может выполнять параллельно на нескольких CPU.

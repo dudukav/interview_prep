@@ -1,5 +1,7 @@
 # Стандартная библиотека и I/O
 
+Собеседовательные нюансы: [`io.Reader`, HTTP, time, JSON, environment и packages](../interview-traps.md#6-стандартная-библиотека-и-io).
+
 ## Интерфейсы io.Reader и io.Writer
 
 `io.Reader` заполняет переданный buffer и возвращает число bytes и error:

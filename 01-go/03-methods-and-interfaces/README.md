@@ -1,5 +1,7 @@
 # Методы, интерфейсы и generics
 
+Собеседовательные нюансы: [method sets, typed nil, сравнение interfaces, embedding и generics](../interview-traps.md#3-методы-интерфейсы-и-generics).
+
 ## Методы
 
 Метод — функция с receiver:

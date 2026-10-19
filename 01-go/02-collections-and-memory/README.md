@@ -1,5 +1,7 @@
 # Коллекции, строки и память
 
+Собеседовательные нюансы: [backing arrays, nil-значения, map, Unicode, JSON и удержание памяти](../interview-traps.md#2-slices-maps-strings-и-память).
+
 ## Array и slice
 
 Array `[N]T` содержит ровно `N` элементов, а длина входит в тип. Присваивание array копирует все элементы.

@@ -1,5 +1,7 @@
 # Тестирование и диагностика Go
 
+Собеседовательные нюансы: [parallel tests, cleanup, fakes, coverage, benchmarks, race detector и pprof](../interview-traps.md#7-тестирование-и-диагностика).
+
 ## Обычный тест
 
 Файл заканчивается на `_test.go`, функция начинается с `Test`:

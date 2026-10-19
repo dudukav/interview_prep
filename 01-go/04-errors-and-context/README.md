@@ -1,5 +1,7 @@
 # Ошибки, context и отмена
 
+Собеседовательные нюансы: [error chains, Close, propagation context, Cause и каналы отмены](../interview-traps.md#4-errors-и-context).
+
 ## Ошибки как значения
 
 Ожидаемая ошибка возвращается обычным значением:
