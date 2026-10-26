@@ -5,6 +5,7 @@
 - [Архитектура и API](architecture.md)
 - [Kafka и данные](kafka-and-data.md)
 - [Качество и эксплуатация](quality-and-operations.md)
+- [Go VCV: вопросы и эталонные ответы](kaspersky-go-vcv.md)
 
 ## Приоритеты
 

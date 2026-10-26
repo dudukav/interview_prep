@@ -16,3 +16,5 @@
 7. `07-security/` — authentication, authorization, TLS, secrets и базовые угрозы API.
 
 Вопросы из учебных защит, наиболее полезные для этого раздела, собраны в [банке вопросов](../question-bank/architecture.md).
+
+Практическое продолжение паттернов надёжности, capacity planning и профилирование собраны в разделе [«Отказоустойчивость и высокие нагрузки»](../08-reliability-and-highload/README.md).

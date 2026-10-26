@@ -32,6 +32,8 @@
 | [05-dev-tools](05-dev-tools/README.md) | Docker, Git и Bash |
 | [06-architecture](06-architecture/README.md) | REST/gRPC, микросервисы и прикладные архитектурные паттерны |
 | [07-quality-and-observability](07-quality-and-observability/README.md) | тестирование, логи, метрики, CI/CD |
+| [08-reliability-and-highload](08-reliability-and-highload/README.md) | отказоустойчивость, высокая нагрузка, нагрузочные тесты и профилирование Go |
+| [09-kubernetes](09-kubernetes/README.md) | архитектура кластера, workloads, сеть, storage, rollout и диагностика |
 | [question-bank](question-bank/README.md) | отобранные вопросы из учебных защит и экзамена |
 
 Алгоритмы и структуры данных намеренно не включены: для них лучше завести отдельный трек, чтобы практические backend-задачи не затерялись среди задач LeetCode.

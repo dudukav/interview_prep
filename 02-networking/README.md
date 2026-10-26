@@ -16,12 +16,12 @@ HTTP обычно работает поверх TCP; HTTPS добавляет TL
 
 ## Порядок изучения
 
-1. `00-foundations/` — IP, DNS, порты, сокеты, клиент/сервер, latency/throughput.
-2. `01-tcp/` — handshake, поток байтов, порядок, retransmission, keepalive, закрытие.
-3. `02-udp/` — datagrams, потери, порядок, ограничения размера, сценарии применения.
-4. `03-http/` — запрос/ответ, методы, коды, заголовки, cookies, TLS, HTTP/1.1–3.
-5. `04-websocket/` — upgrade, frames, ping/pong, разрыв и переподключение.
-6. `05-diagnostics/` — `curl`, `dig`, `ss`/`netstat`, `lsof`, `nc`, Wireshark/tcpdump, логи.
+1. Основы — IP, CIDR, routes, NAT, DNS, порты, sockets, latency/throughput.
+2. TCP/UDP — handshake, поток и framing, retransmission, flow/congestion control, datagrams.
+3. HTTP/TLS — запрос/ответ, методы, коды, заголовки, cookies, сертификаты, HTTP/1.1–3.
+4. Инфраструктура — reverse proxy, load balancer, service discovery и connection pools.
+5. Долгие соединения — WebSocket, heartbeat, backpressure и reconnect.
+6. Диагностика — `curl`, `dig`, `ss`/`netstat`, `lsof`, `nc`, Wireshark/tcpdump, логи и метрики.
 
 ## Практический минимум
 
@@ -32,5 +32,6 @@ HTTP обычно работает поверх TCP; HTTPS добавляет TL
 | HTTP | Поднять сервер, исследовать запрос через `curl -v`, настроить timeouts, graceful shutdown и TLS |
 | WebSocket | Сделать чат или поток статусов, добавить ping/pong, дедлайн чтения и reconnect клиента |
 | Диагностика | Найти процесс на порту, посмотреть открытые соединения и сопоставить сетевую ошибку с логами |
+| Proxy/LB | Поставить reverse proxy перед двумя экземплярами, проверить forwarded headers и отказ одного backend |
 
 Для каждого опыта сохранять: схему, команды запуска, ожидаемый результат, фрагмент логов и объяснение наблюдаемого поведения.

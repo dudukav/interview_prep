@@ -11,6 +11,8 @@
 4. `04-profiling/` — benchmarks, pprof, race detector, нагрузочное тестирование.
 5. `05-ci-cd/` — format, lint, build, tests, security checks, image build, deploy.
 
+Нагрузочные модели, поиск точки насыщения и пошаговая работа с Go `pprof` вынесены в раздел [«Отказоустойчивость и высокие нагрузки»](../08-reliability-and-highload/README.md).
+
 ## Практика
 
 - добавить структурированные логи и провести один запрос через несколько слоёв;
